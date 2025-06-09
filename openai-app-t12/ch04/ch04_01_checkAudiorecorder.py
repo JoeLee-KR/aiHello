@@ -4,7 +4,8 @@ from audiorecorder import audiorecorder
 
 st.write("Python executable path:", sys.executable)
 st.title("test streamlit-audiorecorder package")
-wav_audio_data = audiorecorder("Click to record", "Click to stop recording")
+wav_audio_data = audiorecorder("Click to record",
+                               "Click to stop recording")
 
 if len(wav_audio_data) > 0:
     # To play audio in frontend:
