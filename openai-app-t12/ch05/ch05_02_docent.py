@@ -20,7 +20,7 @@ def GPT4Vcall(urlPrompt):
         {
         "role": "user",
         "content": [
-            {"type": "text", "text": "이 이미지에 대해서 아주 자세히 묘사해줘"},
+            {"type": "text", "text": "이 이미지에 대해서 자세히 묘사해 줘"},
             {
             "type": "image_url",
             "image_url": {
