@@ -9,6 +9,7 @@ from datetime import datetime
 
 def STT(audio_data, client):
     # audiorecorder가 반환한 wave_audio_data를 파일로 저장
+
     filename='assist_tmp.mp3'
     wav_file = open(filename, "wb")
     wav_file.write(audio_data.export().read())
